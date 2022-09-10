@@ -12,7 +12,8 @@ function canComplete(inputString, word) {
   return regex.test(word);
 };
 
-console.log(canComplete("butl", "beautiful"));
-console.log(canComplete("butlz", "beautiful"));
-console.log(canComplete("tulb", "beautiful"));
-console.log(canComplete("bbutl", "beautiful"));
+// console.log(canComplete("butl", "beautiful"));
+// console.log(canComplete("butlz", "beautiful"));
+// console.log(canComplete("tulb", "beautiful"));
+// console.log(canComplete("bbutl", "beautiful"));
+console.log(canComplete("coda", "encyclopedia"));
